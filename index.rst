@@ -98,6 +98,9 @@
 .. _getting_started:
 
 ---------------
+
+Welcome to Nutanix NPEF Elite training 2018!
+
 Getting StartedGetting StartedGetting StartedGetting Started
 ---------------
 
