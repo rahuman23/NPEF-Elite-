@@ -36,6 +36,15 @@
     what_is_oracle/what_is_oracle
     selling_oracle/selling_oracle
 
+    .. toctree::
+        :maxdepth: 2
+        :caption: What is Oracle
+        :name: _What_is_oracle
+        :hidden:
+
+        what_is_oracle/what_is_oracle
+        selling_oracle/selling_oracle
+
 .. toctree::
   :maxdepth: 2
   :caption: Nutanix Calm
