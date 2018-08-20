@@ -64,7 +64,7 @@ Strategic – Cloud Architect
 
 .. figure:: images/selling_calm_03.png
 
-Calm Addresses Both IT Automation andCloud Management Platforms Needs 
+Calm Addresses Both IT Automation andCloud Management Platforms Needs
 ......................................................................
 
 .. figure:: images/selling_calm_04.png
