@@ -9,6 +9,24 @@
   what_is_nutanix/what_is_nutanix
   nutanix_terminology/nutanix_terminology
 
+  .. toctree::
+    :maxdepth: 2
+    :caption: MYSQL
+    :name: _MYSQL
+    :hidden:
+
+    mysql/mysql
+    selling_calm/selling_calm
+
+    .. toctree::
+      :maxdepth: 2
+      :caption: MYSQL
+      :name: _MYSQL
+      :hidden:
+
+      mysql/mysql
+      selling_calm/selling_calm
+
 .. toctree::
   :maxdepth: 2
   :caption: Nutanix Calm
