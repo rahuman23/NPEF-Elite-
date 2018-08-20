@@ -10,7 +10,6 @@
   nutanix_terminology/nutanix_terminology
 
 
-
 .. toctree::
     :maxdepth: 2
     :caption: Oracle Presentation Deck
@@ -29,6 +28,7 @@
     examplelab1/examplelab1
     examplelab2/examplelab2
 
+
 .. toctree::
       :maxdepth: 2
       :caption: Oracle Design Lab
@@ -36,6 +36,7 @@
       :hidden:
 
       designlab1/designlab1
+
 
 .. toctree::
     :maxdepth: 2
@@ -45,42 +46,6 @@
 
     appendix/glossary
 
-
-.. toctree::
-      :maxdepth: 2
-      :caption: MS-SQL Lab
-      :name: _sql_lab
-      :hidden:
-
-      mysql/mysql
-      sql_lab/sql_lab
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Oracle Lab
-    :name: _oracle_lab
-    :hidden:
-
-    oracle_lab/oracle_lab
-    selling_calm/selling_calm
-
-.. toctree::
-    :maxdepth: 2
-    :caption: What is Oracle
-    :name: _What_is_oracle
-    :hidden:
-
-    what_is_oracle/what_is_oracle
-    selling_oracle/selling_oracle
-
-.. toctree::
-  :maxdepth: 2
-  :caption: Nutanix Calm
-  :name: _nutanix_calm
-  :hidden:
-
-  what_is_calm/what_is_calm
-  selling_calm/selling_calm
 
 .. toctree::
   :maxdepth: 2
@@ -137,7 +102,7 @@
 
 Welcome to Nutanix NPEF Elite training 2018!
 
-Will this SHIT EVER WORK?????????
+I hope this helps 2300
 ---------------
 
 Welcome to the Nutanixtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overview Partner Calm Workshop! This workbook accompanies an instructor-led session that introduces Nutanix Calm and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
