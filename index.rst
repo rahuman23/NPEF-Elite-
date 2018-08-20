@@ -1,4 +1,4 @@
-.. title:: Nutanix Partner Calm Workshop
+.. title:: Welcome to Nutanix Partner Enablement Factory (Elite Training)
 
 .. toctree::
   :maxdepth: 2
