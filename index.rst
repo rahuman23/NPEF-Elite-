@@ -34,7 +34,7 @@
     :hidden:
 
     what_is_oracle/what_is_oracle
-    selling_oracle/selling_oracle
+    selling_calm/selling_calm
 
 .. toctree::
     :maxdepth: 2
