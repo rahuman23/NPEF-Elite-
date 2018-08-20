@@ -109,12 +109,12 @@
 Getting Started
 ---------------
 
-Welcome to the Nutanix Partner Calm Workshop! This workbook accompanies an instructor-led session that introduces Nutanix Calm and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
+Welcome to the Nutanixtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overview Partner Calm Workshop! This workbook accompanies an instructor-led session that introduces Nutanix Calm and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
 
 At the end of the workshop, attendees should understand the basic concepts and technologies that make up Nutanix Calm and should be well prepared to demo and talk about Calm.
 
-What's New
-++++++++++
+What's New4532-23uyhgdsfffgrhy5y765r423e==-098768321` 
+++++++++++++++++++++++++++++++++++++++++++++++++++
 
 - Workshop updated for the following software versions:
     - AOS 5.6
