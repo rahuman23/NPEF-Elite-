@@ -9,7 +9,7 @@
   what_is_nutanix/what_is_nutanix
   nutanix_terminology/nutanix_terminology
 
-  .. toctree::
+.. toctree::
     :maxdepth: 2
     :caption: MYSQL
     :name: _MYSQL
@@ -18,7 +18,7 @@
     mysql/mysql
     selling_calm/selling_calm
 
-    .. toctree::
+.. toctree::
       :maxdepth: 2
       :caption: MYSQL
       :name: _MYSQL
@@ -36,14 +36,14 @@
     what_is_oracle/what_is_oracle
     selling_oracle/selling_oracle
 
-    .. toctree::
-        :maxdepth: 2
-        :caption: What is Oracle
-        :name: _What_is_oracle
-        :hidden:
+.. toctree::
+    :maxdepth: 2
+    :caption: What is Oracle
+    :name: _What_is_oracle
+    :hidden:
 
-        what_is_oracle/what_is_oracle
-        selling_oracle/selling_oracle
+    what_is_oracle/what_is_oracle
+    selling_oracle/selling_oracle
 
 .. toctree::
   :maxdepth: 2
@@ -113,7 +113,7 @@ Welcome to the Nutanixtechnology_overviewtechnology_overviewtechnology_overviewt
 
 At the end of the workshop, attendees should understand the basic concepts and technologies that make up Nutanix Calm and should be well prepared to demo and talk about Calm.
 
-What's New4532-23uyhgdsfffgrhy5y765r423e==-098768321` 
+What's New`
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 
 - Workshop updated for the following software versions:
