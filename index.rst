@@ -101,7 +101,7 @@
 
 Welcome to Nutanix NPEF Elite training 2018!
 
-Getting StartedGetting StartedGetting StartedGetting Started
+PLEASE WORK DUDE!!!
 ---------------
 
 Welcome to the Nutanixtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overview Partner Calm Workshop! This workbook accompanies an instructor-led session that introduces Nutanix Calm and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
