@@ -10,6 +10,42 @@
   nutanix_terminology/nutanix_terminology
 
 
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Oracle Presentation Deck
+    :name: _OracleDeck
+    :hidden:
+
+    OracleDeck/aaa
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Oracle Hands on Labs
+    :name: _labs
+    :hidden:
+
+    examplelab1/examplelab1
+    examplelab2/examplelab2
+
+.. toctree::
+      :maxdepth: 2
+      :caption: Oracle Design Lab
+      :name: _designlab1
+      :hidden:
+
+      designlab1/designlab1
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Appendix
+    :name: _appendix
+    :hidden:
+
+    appendix/glossary
+
+
 .. toctree::
       :maxdepth: 2
       :caption: MS-SQL Lab
@@ -101,7 +137,7 @@
 
 Welcome to Nutanix NPEF Elite training 2018!
 
-PLEASE WORK DUDE!!!
+Will this SHIT EVER WORK?????????
 ---------------
 
 Welcome to the Nutanixtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overview Partner Calm Workshop! This workbook accompanies an instructor-led session that introduces Nutanix Calm and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
