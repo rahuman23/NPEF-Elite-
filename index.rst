@@ -9,31 +9,23 @@
   what_is_nutanix/what_is_nutanix
   nutanix_terminology/nutanix_terminology
 
-.. toctree::
-    :maxdepth: 2
-    :caption: MYSQL
-    :name: _MYSQL
-    :hidden:
-
-    mysql/mysql
-    selling_calm/selling_calm
 
 .. toctree::
       :maxdepth: 2
-      :caption: MYSQL
-      :name: _MYSQL
+      :caption: MS-SQL Lab
+      :name: _sql_lab
       :hidden:
 
       mysql/mysql
-      selling_calm/selling_calm
+      sql_lab/sql_lab
 
 .. toctree::
     :maxdepth: 2
-    :caption: What is Oracle
-    :name: _What_is_oracle
+    :caption: Oracle Lab
+    :name: _oracle_lab
     :hidden:
 
-    what_is_oracle/what_is_oracle
+    oracle_lab/oracle_lab
     selling_calm/selling_calm
 
 .. toctree::
