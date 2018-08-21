@@ -2,7 +2,7 @@
 .. _example_lab_1:
 
 -------------
-Lab 1: Using Swingbench for Oracle Performance Test
+Oracle Lab 1: Using Swingbench
 -------------
 
 Create Testing Schema

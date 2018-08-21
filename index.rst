@@ -12,15 +12,6 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: Oracle Presentation Deck
-    :name: _OracleDeck
-    :hidden:
-
-    OracleDeck/aaa
-
-
-.. toctree::
-    :maxdepth: 2
     :caption: Oracle Hands on Labs
     :name: _labs
     :hidden:
@@ -32,19 +23,47 @@
 .. toctree::
       :maxdepth: 2
       :caption: Oracle Design Lab
-      :name: _designlab1
+      :name: _oracledesignlab1
       :hidden:
 
-      designlab1/designlab1
+      oracledesignlab1/oracledesignlab1
 
+.. :
 
 .. toctree::
     :maxdepth: 2
-    :caption: Appendix
-    :name: _appendix
+    :caption: Getting Started with SQL
+    :name: _getting_started_sql
     :hidden:
 
-    appendix/glossary
+    sql_lab/sql_lab
+
+.. toctree::
+    :maxdepth: 2
+    :caption: SQL Presentation Deck
+    :name: _SQLDeck
+    :hidden:
+
+    SQLDeck/deck
+
+
+.. toctree::
+  :maxdepth: 2
+  :caption: SQL Hands on Labs
+  :name: _labs
+  :hidden:
+
+    SQLLAB01/sqllab01
+    SQLLAB02/sqllab02
+
+
+.. toctree::
+  :maxdepth: 2
+  :caption: SQL Design Lab
+  :name: _DESIGNLAN01
+  :hidden:
+
+    DESIGNLAB01/designlab1
 
 
 .. toctree::
@@ -67,16 +86,6 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Ansible Lab
-  :name: _ansible_lab
-  :hidden:
-
-  ansible_install/ansible_install
-  ansible_basics/ansible_basics
-  ansible_lamp_playbook/ansible_lamp_playbook
-
-.. toctree::
-  :maxdepth: 2
   :caption: Flow Lab
   :name: _flow_lab
   :hidden:
@@ -93,16 +102,25 @@
   :name: _appendix
   :hidden:
 
+
+  .. toctree::
+    :maxdepth: 2
+    :caption: Ansible Lab (optional)
+    :name: _ansible_lab
+    :hidden:
+
+    ansible_install/ansible_install
+    ansible_basics/ansible_basics
+    ansible_lamp_playbook/ansible_lamp_playbook
+
+
   appendix/glossary
   appendix/basics
 
 .. _getting_started:
 
 ---------------
-
 Welcome to Nutanix NPEF Elite training 2018!
-
-I hope this helps 2300
 ---------------
 
 Welcome to the Nutanixtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overview Partner Calm Workshop! This workbook accompanies an instructor-led session that introduces Nutanix Calm and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
@@ -125,11 +143,12 @@ Agenda
 
 - Introductions
 - Technology Overview
-- Nutanix Calm
-- Nutanix Calm Lab
+- SQL Lab (Day1)
+- Oracle Lab (Day1)
+- Nutanix Calm Lab (Day2)
+- Flow Lab (Day2)
 - Optional Labs
   - Ansible Lab
-  - Flow Lab
 
 Introductions
 +++++++++++++

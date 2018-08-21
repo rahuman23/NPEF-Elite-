@@ -2,7 +2,7 @@
 .. _example_lab_2:
 
 -------------
-Lab 2: Oracle on Nutanix Best Practice
+Oracle Lab 2: Oracle on Nutanix Best Practice
 -------------
 
 2.1 Before installation Oracle database
