@@ -93,15 +93,15 @@
   :hidden:
 
 
-  .. toctree::
-    :maxdepth: 2
-    :caption: Ansible Lab (optional)
-    :name: _ansible_lab
-    :hidden:
+.. toctree::
+  :maxdepth: 2
+  :caption: Ansible Lab (optional)\
+  :name: _ansible_lab
+  :hidden:
 
-    ansible_install/ansible_install
-    ansible_basics/ansible_basics
-    ansible_lamp_playbook/ansible_lamp_playbook
+  ansible_install/ansible_install
+  ansible_basics/ansible_basics
+  ansible_lamp_playbook/ansible_lamp_playbook
 
 
   appendix/glossary
@@ -113,7 +113,7 @@
 Welcome to Nutanix NPEF Elite training 2018!
 ---------------
 
-Welcome to the Nutanixtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overviewtechnology_overview Partner Calm Workshop! This workbook accompanies an instructor-led session that introduces Nutanix Calm and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
+Welcome to the Nutanix Partner Enablement Factory! This workbook accompanies an instructor-led session that introduces Nutanix Calm and many common management tasks. Each section has a lesson and an exercise to give you hands-on practice. The instructor explains the exercises and answers any additional questions that you may have.
 
 At the end of the workshop, attendees should understand the basic concepts and technologies that make up Nutanix Calm and should be well prepared to demo and talk about Calm.
 
