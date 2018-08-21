@@ -11,6 +11,33 @@
 
 
 .. toctree::
+  :maxdepth: 2
+  :caption: Getting Started with SQL
+  :name: _startsql
+  :hidden:
+
+  sql_lab/sql_lab
+
+.. toctree::
+  :maxdepth: 2
+  :caption: SQL Hands on Labs
+  :name: _labs
+  :hidden:
+
+  SQLLAB01/sqllab01
+  SQLLAB02/sqllab02
+
+
+.. toctree::
+  :maxdepth: 2
+  :caption: SQL Design Lab
+  :name: _DESIGNLAN01
+  :hidden:
+
+  DESIGNLAB01/designlab1
+
+
+.. toctree::
     :maxdepth: 2
     :caption: Oracle Hands on Labs
     :name: _labs
@@ -27,43 +54,6 @@
       :hidden:
 
       oracledesignlab1/oracledesignlab1
-
-.. :
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Getting Started with SQL
-    :name: _getting_started_sql
-    :hidden:
-
-    sql_lab/sql_lab
-
-.. toctree::
-    :maxdepth: 2
-    :caption: SQL Presentation Deck
-    :name: _SQLDeck
-    :hidden:
-
-    SQLDeck/deck
-
-
-.. toctree::
-  :maxdepth: 2
-  :caption: SQL Hands on Labs
-  :name: _labs
-  :hidden:
-
-    SQLLAB01/sqllab01
-    SQLLAB02/sqllab02
-
-
-.. toctree::
-  :maxdepth: 2
-  :caption: SQL Design Lab
-  :name: _DESIGNLAN01
-  :hidden:
-
-    DESIGNLAB01/designlab1
 
 
 .. toctree::
