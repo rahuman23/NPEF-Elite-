@@ -2,7 +2,7 @@
 .. _example_lab_1:
 
 ----------------------
-Lab 1: Running HammerDB
+Lab 1: Running Hammer-DB
 ----------------------
 
 1.1 Download the HammerDB
@@ -23,8 +23,8 @@ http://www.hammerdb.com/hammerdb_quickstart_mssql.pdf
 1.2 Install HammerDB
 ++++++++++++++++++++
 
-Install HammerDB is very easy , download the package from the website , and follow the Windows installation.
-Next-> Next or you can reference the installation guide that provide by
+Installing HammerDB is very easy, download the package from the website, and follow the Windows installation.
+Next-> Next or you can reference the installation guide that provide below:
 
 http://www.hammerdb.com/hammerdb_install_guide.pdf
 
@@ -45,8 +45,9 @@ In the Benchmark Options box, select MSSQL Server and TPC-C and then click OK
 1.4 Build testing schema
 ++++++++++++++++++++++++
 
-First all, you need build a schema for the whole testing . Some of the vender will create a small schema like 1GB or maybe less than 100 MB . This is not a correct testing . When they create such small database schema . The data always on the database buffer , so the performance look so great . Suggest should be same size of customer current database or great than database’s buffer size .
-Steps-  Below TPC-C, click Schema Build and then double-click Options.
+Firstly, you need build a schema for the whole testing . Some of the vender will create a small schema like 1GB or maybe less than 100 MB. This is incorrect. When they create such small database schema, the data will always be in the database buffer thus the performance look great. We suggest should be same size of customer current database or great than database’s buffer size.
+
+Steps:  Below TPC-C, click Schema Build and then double-click Options.
 In the window that appears, enter your SQL Server host name, or IP address, database username, and password.
 After you fill up all the parameter , then click “OK”
 

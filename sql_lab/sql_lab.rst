@@ -41,19 +41,3 @@ Lab Environment
  https://www.microsoft.com/en-us/download/windows.aspx
 
  - Recommend using Microsoft SQL Server 2012 database version or above for this lab
-
-Setup Lab
-+++++++++
-After you foundation your Nutanix blocks (How to Foundation Nutanix Block)
-You can watch the video from https://www.nutanix.com/2014/07/15/nutanix-foundation-demo-video-from-bare-metal-to-production-in-minutes/
-
-The foundation software is available on
-
-https://portal.nutanix.com/#/page/foundation/list
-
-After finish foundation, you can create a VM that content Oracle Linux OS. Install Oracle database follow this link -
-
-https://www.youtube.com/watch?v=CwHetPzsQBY
-
-
-If you have any question, you can send a email to albert.chen@nutanix.com. I will happy to teach you how to setup a environment or provide the base VM image to you.

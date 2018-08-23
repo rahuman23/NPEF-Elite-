@@ -125,7 +125,6 @@ What's New
     - PC 5.7.1
 
 - Optional Lab Updates:
-    - Flow
     - Ansible
 
 Agenda
@@ -150,12 +149,16 @@ Initial Setup
 +++++++++++++
 
 - Take note of the *Passwords* being used.
-- Log into your virtual desktops (connection info below)
+- Login to the Prism Central with the IP address provided by instructor.
 
 Environment Details
 +++++++++++++++++++
 
-Nutanix Workshops are intended to be run in the Nutanix Hosted POC environment. Your cluster will be provisioned with all necessary images, networks, and VMs required to complete the exercises.
+Nutanix Workshops are intended to be run in the Nutanix Hosted POC or in a demo cluster provided by the facilitator.
+
+Your cluster will be provisioned with all necessary images, networks, and VMs required to complete the exercises.
+
+You will be provided with the necessary file server that has the images that could not be found in the cluster.
 
 Networking
 ..........
@@ -217,7 +220,7 @@ Credentials
 
 .. note::
 
-  The *<Cluster Password>* is unique to each cluster and will be provided by the leader of the Workshop.
+  All users will be accessing to the same cluster with the below credentials. If otherwise mentioned by instructor.
 
 .. list-table::
   :widths: 25 35 40
@@ -226,18 +229,21 @@ Credentials
   * - Credential
     - Username
     - Password
+  * - Wifi Login
+    - nutanix (SSID)
+    - nutanix/4u
   * - Prism Element
     - admin
-    - *<Cluster Password>*
+    - Nutanix/4u!@34
   * - Prism Central
     - admin
-    - *<Cluster Password>*
+    - Nutanix/4u!@34
   * - Controller VM
     - nutanix
-    - *<Cluster Password>*
+    - nutanix/4u
   * - Prism Central VM
     - nutanix
-    - *<Cluster Password>*
+    - nutanix/4u
 
 Each cluster has a dedicated domain controller VM, **DC**, responsible for providing AD services for the **NTNXLAB.local** domain. The domain is populated with the following Users and Groups:
 
@@ -252,48 +258,14 @@ Each cluster has a dedicated domain controller VM, **DC**, responsible for provi
     - Administrator
     - nutanix/4u
   * - SSP Admins
-    - adminuser01-adminuser25
+    - adminuser01
     - nutanix/4u
   * - SSP Developers
-    - devuser01-devuser25
+    - devuser01
     - nutanix/4u
   * - SSP Power Users
-    - poweruser01-poweruser25
+    - poweruser01
     - nutanix/4u
   * - SSP Basic Users
-    - basicuser01-basicuser25
+    - basicuser01
     - nutanix/4u
-
-Access Instructions
-+++++++++++++++++++
-
-The Nutanix Hosted POC environment can be accessed a number of different ways:
-
-Citrix XenDesktop
-.................
-
-https://citrixready.nutanix.com - *Accessible via the Citrix Receiver client or HTML5*
-
-**Nutanix Employees** - Use your NUTANIXDC credentials
-
-**Non-Employees** - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Employee Pulse Secure VPN
-..........................
-
-https://sslvpn.nutanix.com - Use your CORP credentials
-
-Non-Employee Pulse Secure VPN
-..............................
-
-https://lab-vpn.nutanix.com - **Username:** POCxxx-User01 (up to POCxxx-User20), **Password:** *<Provided by Instructor>*
-
-Under **Client Application Sessions**, click **Start** to the right of **Pulse Secure** to download the client.
-
-Install and open **Pulse Secure**.
-
-Add a connection:
-
-- **Type** - Policy Secure (UAC) or Connection Server
-- **Name** - HPOC VPN
-- **Server URL** - lab-vpn.nutanix.com
