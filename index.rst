@@ -29,15 +29,6 @@
 
 
 .. toctree::
-  :maxdepth: 2
-  :caption: SQL Design Lab
-  :name: _DESIGNLAN01
-  :hidden:
-
-  DESIGNLAB01/designlab1
-
-
-.. toctree::
     :maxdepth: 2
     :caption: Oracle Hands on Labs
     :name: _labs
@@ -95,7 +86,7 @@
 
 .. toctree::
   :maxdepth: 2
-  :caption: Ansible Lab (optional)\
+  :caption: Ansible Lab (optional)
   :name: _ansible_lab
   :hidden:
 
@@ -105,7 +96,7 @@
 
 
   appendix/glossary
-  appendix/basics
+
 
 .. _getting_started:
 
