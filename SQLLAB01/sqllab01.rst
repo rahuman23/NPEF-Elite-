@@ -147,9 +147,9 @@ Double click the Options , then it will show the “Connect to Agent Options” 
 .. figure:: images/sql11.png
 
 
---------------------------
+
 Link your result to Partner X-Tribe to get awarded!
---------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 If you completed your lab and you have obtain the desired result, it is time to upload your work to Partner Xtribe to gets your points! Take a print screen of the TPS results together with your IP Address of your computer. Upload the print screen to xtribe.
 
