@@ -8,8 +8,8 @@ Lab 2: Apply Microsoft SQL best practice
 2.1 Apply the SQL best practice
 +++++++++++++++++++++++++++++++
 
-When you go customer site for POC , please make sure everything already follow our SQL best practice guide.
-You can find in Nutanix Website and download it. Please download two versions ,
+When you go customer site for POC, please make sure everything already follow our SQL best practice guide.
+You can find in Nutanix Website and download it. Please download two versions,
 one is SQL server 2008R2 ,2012, 2014 on Nutanix , and the other one is SQL server 2016 on Nutanix.
 There are some little difference. Some of the parameter you don’t need to apply in the SQL server 2016.
 
@@ -24,9 +24,9 @@ ESXi you need to separate disks into different pv-scsi initiators.
 AHV we use the virtio, it can support more queue in a single virtual scsi. So you just need one scsi to have all of the vdisks.
 
 
-Here is a layout of SQL design for the ESXi , but for the AHV , the Controller will be only one controller.
+Here is a layout of SQL design for the ESXi , but for the AHV , the Controller Virtual Machine will be one controlling.
 
-In this lab , we will use AHV as our lab. ESXi just for your reference .
+In this lab, we will use AHV as our lab. ESXi just for your reference.
 
 we need create 100GB x2 locate in PVSCSI 1, 2 , 80 GBx 2 locate in PVSCSI 3,0 , 50 GB x1 locate in PVSCSI 3, 40 GB x1 ocate in PVSCSI1 (ESXi)
 
@@ -41,34 +41,34 @@ In the AHV , just create the disks , do not need to care about multiple virtual 
 2.3 Configure vdisks in the ESXi
 ++++++++++++++++++++++++++++++++
 
-a.Configure Multiple PVSCSI in the ESXi VM
+A. Configure Multiple PVSCSI in the ESXi VM
 
-b.Select VM from vCenter Console , then Choose “Edit”. That will show the “Virtual Machine Properties”. Then click “Add”
+B. Select VM from vCenter Console , then Choose “Edit”. That will show the “Virtual Machine Properties”. Then click “Add”
 
 .. figure:: images/Lab203.png
 
-c.After click “Add” , will show a “Add Hardware” page , please choose type “Hard Disk” . Click Next.
+C. After click “Add” , will show a “Add Hardware” page , please choose type “Hard Disk” . Click Next.
 
 .. figure:: images/Lab204.png
 
-d.Choose “Create a new virtual disk “ then click “Next”
+D. Choose “Create a new virtual disk “ then click “Next”
 
 .. figure:: images/Lab205.png
 
-e.Enter your Capacity and choose “Thin Provision ” disk . then click “Next”.
+E. Enter your Capacity and choose “Thin Provision ” disk . then click “Next”.
 
 .. figure:: images/Lab206.png
 
-f.choose “Virtual Device Node” SCSI “1.0” , ESXi will create PVSCSI1 for you automatically.
+F. choose “Virtual Device Node” SCSI “1.0” , ESXi will create PVSCSI1 for you automatically.
 
 .. figure:: images/Lab207.png
 
 
-g.make sure the new created SCSI is PVSCSI. 
+G. make sure the new created SCSI is PVSCSI. 
 
 .. figure:: images/Lab208.png
 
-h.After you created all vdisk SQL needs, will look like this .
+H. After you created all vdisk SQL needs, will look like this .
 
 in the AHV , you just need to creat the vdisks not need to configure the scsi cards . ( These show user why Nutanix make things simple )
 
@@ -115,21 +115,21 @@ b.Change the size to 256 or 512 MB per growth
 
 When we extend the datafile , we do not need to wait the “Zero” be written in disk. That will fast SQL server IO process.
 
-a.On the computer where the backup file will be created, open the Local Security Policy application (secpol.msc).
+A. On the computer where the backup file will be created, open the Local Security Policy application (secpol.msc).
 
 .. figure:: images/Lab215.png
 
 
-b.In the left pane, expand Local Policies, and then click User Rights Assignment. In the right pane, double-click Perform volume maintenance tasks.
+B. In the left pane, expand Local Policies, and then click User Rights Assignment. In the right pane, double-click Perform volume maintenance tasks.
 
 .. figure:: images/Lab216.png
 
 
-c.Click Add User or Group and add any user accounts that are used for backups.
+C. Click Add User or Group and add any user accounts that are used for backups.
 
 .. figure:: images/Lab217.png
 
-d.Click Apply, and then close all Local Security Policy dialog boxes.
+D. Click Apply, and then close all Local Security Policy dialog boxes.
 
 
 2.7 Enable Trace flag 1117 (ESXi and AHV)
@@ -140,23 +140,23 @@ So please do when user using SQL 2014 and previous version. In our lab , we are 
 Steps
 
 
-a.Choose SQL Server Configuration Manager - 
+A. Choose SQL Server Configuration Manager - 
 
 .. figure:: images/Lab218.png
 
 
-b.Choose “SQL Server Services” , double click SQL Server (MSSQLSERVER) 
+B. Choose “SQL Server Services” , double click SQL Server (MSSQLSERVER) 
 
 
 .. figure:: images/Lab219.png
 
-c.In the “startup parameters” tab , on the specify a startup parameter: Type –t1117, click Add and Apply
+C. In the “startup parameters” tab , on the specify a startup parameter: Type –t1117, click Add and Apply
 
 
 .. figure:: images/Lab220.png
 
 
-d.Restart SQL server service -
+D. Restart SQL server service -
 
 .. figure:: images/Lab221.png
 

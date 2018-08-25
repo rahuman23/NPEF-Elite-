@@ -91,3 +91,14 @@ The you can see swingbench start perform OLTP testing .
 
 
 .. figure:: images/SW8.png
+
+Link your result to Partner X-Tribe to get awarded!
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+If you completed your lab and you have obtain the desired result, it is time to upload your work to Partner Xtribe to gets your points! Take a print screen of the TPS results together with your IP Address of your computer. Upload the print screen to xtribe.
+
+  - Ensure that you have Swingbench results as shown in the image below
+  - Print Screen has to include the IP address of your computer to prove your work
+  - This lab submission can be done at a later time, using the HPOC
+
+.. figure:: images/HammerDB.png
