@@ -33,6 +33,7 @@ Click **New Directory**. Fill out the following fields and click **Next**:
 - **Directory Type** - Active Directory
 - **Name** - NTNXLAB
 - **Domain** - ntnxlab.local
+- **IP Address** - 192.168.1.200
 - **Directory URL** - ldaps://*<DC-VM-IP>*
 - **Username** - Administrator@ntnxlab.local
 - **Password** - nutanix/4u
