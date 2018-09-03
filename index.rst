@@ -160,10 +160,19 @@ SSID: Cisco_demo05 (right side)
 Pwd: Guest89d
 
 Cluster IP: 192.168.6.9
+
 PC IP: 192.168.6.8
+
 Username: admin
+
 Pwd: Techdata1@1
+
 Network Details: 192.168.0.0/21 (255.255.248.0)
+
 Useable Range: 192.168.6.0 – 192.168.6.255 (DHCP has already been setup)
+
 Gateway: 192.168.0.1
- 
+
+MS SQL VM login: administrator / nutanix/4u
+
+Oracle VM: oracle / oracle
