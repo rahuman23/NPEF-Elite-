@@ -151,112 +151,19 @@ Your cluster will be provisioned with all necessary images, networks, and VMs re
 
 You will be provided with the necessary file server that has the images that could not be found in the cluster.
 
-Networking
+Networking / Credentials
 ..........
 
-Hosted POC clusters follow a standard naming convention:
+SSID: demo_cisco04 (left side)
+Pwd: Guest89d
+SSID: Cisco_demo05 (right side)
+Pwd: Guest89d
 
-- **Cluster Name** - POC\ *XYZ*
-- **Subnet** - 10.**21**.\ *XYZ*\ .0
-- **Cluster IP** - 10.**21**.\ *XYZ*\ .37
-
-If provisioned from the marketing pool:
-
-- **Cluster Name** - MKT\ *XYZ*
-- **Subnet** - 10.**20**.\ *XYZ*\ .0
-- **Cluster IP** - 10.**20**.\ *XYZ*\ .37
-
-For example:
-
-- **Cluster Name** - POC055
-- **Subnet** - 10.21.55.0
-- **Cluster IP** - 10.21.55.37
-
-Throughout the Workshop there are multiple instances where you will need to substitute *XYZ* with the correct octet for your subnet, for example:
-
-.. list-table::
-  :widths: 25 75
-  :header-rows: 1
-
-  * - IP Address
-    - Description
-  * - 10.21.\ *XYZ*\ .37
-    - Nutanix Cluster Virtual IP
-  * - 10.21.\ *XYZ*\ .39
-    - **PC** VM IP, Prism Central
-  * - 10.21.\ *XYZ*\ .40
-    - **DC** VM IP, NTNXLAB.local Domain Controller
-
-Each cluster is configured with 2 VLANs which can be used for VMs:
-
-.. list-table::
-  :widths: 25 25 10 40
-  :header-rows: 1
-
-  * - Network Name
-    - Address
-    - VLAN
-    - DHCP Scope
-  * - Primary
-    - 10.21.\ *XYZ*\ .1/25
-    - 0
-    - 10.21.\ *XYZ*\ .50-10.21.\ *XYZ*\ .124
-  * - Secondary
-    - 10.21.\ *XYZ*\ .129/25
-    - *XYZ1*
-    - 10.21.\ *XYZ*\ .132-10.21.\ *XYZ*\ .253
-
-Credentials
-...........
-
-.. note::
-
-  All users will be accessing to the same cluster with the below credentials. If otherwise mentioned by instructor.
-
-.. list-table::
-  :widths: 25 35 40
-  :header-rows: 1
-
-  * - Credential
-    - Username
-    - Password
-  * - Wifi Login
-    - nutanix (SSID)
-    - nutanix/4u
-  * - Prism Element
-    - admin
-    - Nutanix/4u!@34
-  * - Prism Central
-    - admin
-    - Nutanix/4u!@34
-  * - Controller VM
-    - nutanix
-    - nutanix/4u
-  * - Prism Central VM
-    - nutanix
-    - nutanix/4u
-
-Each cluster has a dedicated domain controller VM, **DC**, responsible for providing AD services for the **NTNXLAB.local** domain. The domain is populated with the following Users and Groups:
-
-.. list-table::
-  :widths: 25 35 40
-  :header-rows: 1
-
-  * - Group
-    - Username(s)
-    - Password
-  * - Administrators
-    - Administrator
-    - nutanix/4u
-  * - SSP Admins
-    - adminuser01
-    - nutanix/4u
-  * - SSP Developers
-    - devuser01
-    - nutanix/4u
-  * - SSP Power Users
-    - poweruser01
-    - nutanix/4u
-  * - SSP Basic Users
-    - basicuser01
-    - nutanix/4u
+Cluster IP: 192.168.6.9
+PC IP: 192.168.6.8
+Username: admin
+Pwd: Techdata1@1
+Network Details: 192.168.0.0/21 (255.255.248.0)
+Useable Range: 192.168.6.0 – 192.168.6.255 (DHCP has already been setup)
+Gateway: 192.168.0.1
+ 
