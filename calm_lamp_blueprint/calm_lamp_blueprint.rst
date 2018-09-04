@@ -17,7 +17,7 @@ In this exercise you will extend the MySQL Blueprint created previously into a 
 Creating the Web Server
 .......................
 
-From **Prism Central > Apps**, select **Blueprints** from the sidebar and select your Blueprint from the previous exercise.
+From **Prism Central > Calm**, select **Blueprints** from the sidebar and select your Blueprint from the previous exercise.
 
 In **Application Overview > Services**, click :fa:`plus-circle`.
 

@@ -22,7 +22,7 @@ In this exercise you will enable Nutanix Calm and configure a Project to contain
 
 Open \https://*<Prism-Central-IP>*:9440/ in a browser and log in.
 
-From the navigation bar, select **Apps**.
+From the navigation bar, select **Calm**.
 
 Click **Click here to enable Self Service and App management**.
 
@@ -61,7 +61,7 @@ Select **Enable App Management** and click **Finish**.
 
 .. figure:: images/enable4.png
 
-Following successful completion of the **Enable App Management** task, refresh the browser and select **Apps** from the navigation bar.
+Following successful completion of the **Enable App Management** task, refresh the browser and select **Calm** from the navigation bar.
 
 .. figure:: images/enable5.png
 

@@ -17,7 +17,7 @@ Publishing Blueprints from Marketplace Manager
 
 By default, Calm comes pre-seeded with validated Blueprints for multiple open source and enterprise applications. Marketplace Manager acts as a staging area for publishing default and user-created Blueprints to your local Marketplace. The Marketplace acts as an application store, providing end users with a catalog of available applications.
 
-From **Prism Central > Apps**, select |mktmgr-icon| **Marketplace Manager** from the sidebar.
+From **Prism Central > Calm**, select |mktmgr-icon| **Marketplace Manager** from the sidebar.
 
 Under **Marketplace Blueprints**, select **Mongo**.
 
@@ -40,7 +40,7 @@ Under **Projects Shared With**, select the **Calm** Project and click **Apply**.
 Cloning Blueprints from Marketplace
 ...................................
 
-From **Prism Central > Apps**, select |mkt-icon| **Marketplace** from the sidebar. All Blueprints published in Marketplace Manager are visible here.
+From **Prism Central > Calm**, select |mkt-icon| **Marketplace** from the sidebar. All Blueprints published in Marketplace Manager are visible here.
 
 .. figure:: images/marketplace_p1_4.png
 
@@ -102,7 +102,7 @@ In this exercise you will learn how to manage Calm Blueprints within the Nutanix
 Publishing Blueprints
 .....................
 
-From **Prism Central > Apps**, select |bp-icon| **Blueprints** from the sidebar.
+From **Prism Central > Calm**, select |bp-icon| **Blueprints** from the sidebar.
 
 Open any **Active** Blueprint by clicking on its **Name**.
 
@@ -125,7 +125,7 @@ Click **Submit for Approval**.
 Approving Blueprints
 ....................
 
-From **Prism Central > Apps**, select |mktmgr-icon| **Marketplace Manager** from the sidebar.
+From **Prism Central > Calm**, select |mktmgr-icon| **Marketplace Manager** from the sidebar.
 
 .. note:: You must be logged in as a Cluster Admin user to access the Marketplace Manager.
 
@@ -157,7 +157,7 @@ Verify the Blueprint's **Status** is now shown as **Published**.
 
 .. figure:: images/marketplace_p2_7.png
 
-From **Prism Central > Apps**, select |mkt-icon| **Marketplace** from the sidebar. Verify your Blueprint is available for launching as an application.
+From **Prism Central > Calm**, select |mkt-icon| **Marketplace** from the sidebar. Verify your Blueprint is available for launching as an application.
 
 .. figure:: images/marketplace_p2_8.png
 
@@ -166,7 +166,7 @@ Configuring Project Environment
 
 To launch a Blueprint directly from the Marketplace, we need to ensure our Project has all of the requisite environment details to satisfy the Blueprint.
 
-From **Prism Central > Apps**, select |proj-icon| **Projects** from the sidebar.
+From **Prism Central > Calm**, select |proj-icon| **Projects** from the sidebar.
 
 Select the Project **Name** associated with your Blueprint at the time of publishing (e.g. the **Calm** Project that was assigned as **Project Shared With**).
 
@@ -203,7 +203,7 @@ Click **Save**.
 Launching Blueprint from the Marketplace
 ........................................
 
-From **Prism Central > Apps**, select |mkt-icon| **Marketplace** from the sidebar.
+From **Prism Central > Calm**, select |mkt-icon| **Marketplace** from the sidebar.
 
 .. figure:: images/marketplace_p2_11.png
 
