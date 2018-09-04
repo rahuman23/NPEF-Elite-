@@ -175,4 +175,8 @@ Gateway: 192.168.0.1
 
 MS SQL VM login: administrator / nutanix/4u
 
+.. note::
+
+
+
 Oracle VM: oracle / oracle
