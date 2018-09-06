@@ -153,30 +153,21 @@ You will be provided with the necessary file server that has the images that cou
 
 Networking / Credentials
 ..........
+Cluster IP: 172.16.70.19
 
-SSID: demo_cisco04 (left side)
-Pwd: Guest89d
-SSID: Cisco_demo05 (right side)
-Pwd: Guest89d
-
-Cluster IP: 192.168.6.9
-
-PC IP: 192.168.6.8
+PC IP: 172.16.70.20
 
 Username: admin
 
-Pwd: Techdata1@1
+Pwd: 1qaz2wsx#EDC
 
-Network Details: 192.168.0.0/21 (255.255.248.0)
+Network Details: 172.16.68.0/22
 
-Useable Range: 192.168.6.0 – 192.168.6.255 (DHCP has already been setup)
+Useable Range: 172.16.70.1 – 172.16.71.222 (DHCP has already been setup)
 
-Gateway: 192.168.0.1
-
-MS SQL VM login: administrator / nutanix/4u
+Gateway: 172.16.68.1/22
 
 .. note::
 
-
-
+Windows VM: administrator / nutanix/4u
 Oracle VM: oracle / oracle
