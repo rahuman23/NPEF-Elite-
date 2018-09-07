@@ -82,7 +82,7 @@ Fill out the following fields:
 - **Cloud** - Nutanix
 - **OS** - Linux
 - **VM Name** - MYSQL-@@{calm_array_index}@@-@@{calm_time}@@
-- **Image** - CentOS
+- **Image** - CentosTest01
 - **Device Type** - Disk
 - **Device Bus** - SCSI
 - Select **Bootable**
@@ -94,6 +94,8 @@ Fill out the following fields:
 - **Credential** - CENTOS
 
 .. note::
+
+  Do not use centos_template.qcow2 that will not work for this lab. 
 
   Ensure selecting the **Credential** is the final selection made before proceeding to the next step, selecting other fields can clear your **Credential** selection.
 
